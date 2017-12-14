@@ -1,0 +1,193 @@
+@import url("base.css");
+/*智能家电*/
+.zn .phone-left{
+	border-color: #3299cc;
+}
+.zn .phone-left .title{
+	background: #eff7fb;
+}
+.zn .phone-left .title-name{
+	background: #3299cc;
+}
+.zn .phone-left .content .left-img .cover{
+	background: #3299cc;
+}
+.zn .phone-left .content .img-list li a .img-desc{
+	color: #3299cc;
+}
+.zn .phone-left .bottom ul li a .img-desc{
+	color: #3299cc;
+}
+.zn .phone-right{
+	border-color: #558ccf;
+}
+.zn .phone-right .title{
+	background: #edf1f7;
+}
+.zn .phone-right .title-name{
+	background: #558ccf;
+}
+.zn .phone-right .content .left-img .cover{
+	background: #558ccf;
+}
+.zn .phone-right .content .img-list li a .img-desc{
+	color: #558ccf;
+}
+.zn .phone-right .bottom ul li a .img-desc{
+	color: #558ccf;
+}
+/*生活家电*/
+.sh .phone-left{
+	border-color: #c96b2c
+}
+.sh .phone-left .title{
+	background: #fbf3ee
+}
+.sh .phone-left .title-name{
+	background: #c96b2c
+}
+.sh .phone-left .content .left-img .cover{
+	background: #c96b2c
+}
+.sh .phone-left .content .img-list li a .img-desc{
+	color: #c96b2c
+}
+.sh .phone-left .bottom ul li a .img-desc{
+	color: #c96b2c
+}
+.sh .phone-right{
+	border-color: #b15641;
+}
+.sh .phone-right .title{
+	background: #f9f2f0;
+}
+.sh .phone-right .title-name{
+	background: #b15641;
+}
+.sh .phone-right .content .left-img .cover{
+	background: #b15641;
+}
+.sh .phone-right .content .img-list li a .img-desc{
+	color: #b15641;
+}
+.sh .phone-right .bottom ul li a .img-desc{
+	color: #b15641;
+}
+/*美味生活*/
+.mw .content .img-list li a  .img-desc{
+	color: #e96f1e;
+}
+.mw .content .middle-img p{
+	color: #e96f1e;
+}
+/*美妈萌娃*/
+.mm .phone-left{
+	border-color: #e87272;
+}
+.mm .phone-left .title{
+	background: #fdf1f1;
+}
+.mm .phone-left .title-name{
+	background: #e87272;
+}
+.mm .phone-left .content .left-img .cover{
+	background: #e87272;
+}
+.mm .phone-left .content .img-list li a .img-desc{
+	color: #e87272;
+}
+.mm .phone-left .bottom ul li a .img-desc{
+	color: #e87272;
+}
+.mm .phone-right{
+	border-color: #e7658c;
+}
+.mm .phone-right .title{
+	background: #fdeff3;
+}
+.mm .phone-right .title-name{
+	background: #e7658c;
+}
+.mm .phone-right .content .left-img .cover{
+	background: #e7658c;
+}
+.mm .phone-right .content .img-list li a .img-desc{
+	color: #e7658c;
+}
+.mm .phone-right .bottom ul li a .img-desc{
+	color: #e7658c;
+}
+/*服装配饰*/
+.fz .phone-left{
+	border-color: #9a6392;
+}
+.fz .phone-left .title{
+	background: #f7f3f6;
+}
+.fz .phone-left .title-name{
+	background: #9a6392;
+}
+.fz .phone-left .content .left-img .cover{
+	background: #9a6392;
+}
+.fz .phone-left .content .img-list li a .img-desc{
+	color: #9a6392;
+}
+.fz .phone-left .bottom ul li a .img-desc{
+	color: #9a6392;
+}
+.fz .phone-right{
+	border-color: #76639a;
+}
+.fz .phone-right .title{
+	background: #f4f3f7;
+}
+.fz .phone-right .title-name{
+	background: #76639a;
+}
+.fz .phone-right .content .left-img .cover{
+	background: #76639a;
+}
+.fz .phone-right .content .img-list li a .img-desc{
+	color: #76639a;
+}
+.fz .phone-right .bottom ul li a .img-desc{
+	color: #76639a;
+}
+/*金融*/
+.jr .phone-left{
+	border-color: #b87b1b;
+}
+.jr .phone-left .title{
+	background: #f9f5ed;
+}
+.jr .phone-left .title-name{
+	background: #b87b1b;
+}
+.jr .phone-left .content .left-img .cover{
+	background: #b87b1b;
+}
+.jr .phone-left .content .img-list li a .img-desc{
+	color: #b87b1b;
+}
+.jr .phone-left .bottom ul li a .img-desc{
+	color: #b87b1b;
+}
+.jr .phone-right{
+	border-color: #a16b46;
+}
+.jr .phone-right .title{
+	background: #f8f3f0;
+}
+.jr .phone-right .title-name{
+	background: #a16b46;
+}
+.jr .phone-right .content .left-img .cover{
+	background: #a16b46;
+}
+.jr .phone-right .content .img-list li a .img-desc{
+	color: #a16b46;
+}
+.jr .phone-right .bottom ul li a .img-desc{
+	color: #a16b46;
+}

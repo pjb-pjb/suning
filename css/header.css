@@ -1,0 +1,125 @@
+@import url("base.css");
+.header{
+	width: 100%;
+	height: 100px;
+	background: rgb(255, 6, 64);;
+}
+.header1{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.header img{
+	display: block;
+	margin: 0 auto;
+	/*text-align: center;*/
+}
+.daohang{
+	width: 100%;
+	height: 36px;
+	background: #F5f5f5;
+	border-bottom: 1px solid #eee;
+}
+.daohang1{
+	height: 100%;
+	width:1190px;
+	margin: 0 auto;
+	/*background: red;*/
+}
+.daohang-left{
+	float: left;
+	height: 100%;
+}
+.daohang-left-d1{
+	float: left;
+	margin: 0 10px;
+	height: 100%;
+	line-height: 36px;
+}
+.daohang-left-a1 span{
+	color: #666666;
+	font-size: 12px;
+}
+.daohang-left-a1 i{
+	position: relative;
+	top: -6px;
+	/*font-size: 14px;*/
+	color: #bbb;
+	/*line-height: 36px;*/
+	/*display: inline-block;*/
+	width: 10px;
+	margin-left: 3px;
+	vertical-align: middle;
+	transition: all .2s linear;
+}
+.daohang-right{
+	float: right;
+	height: 100%;
+}
+.daohang-right-d1{
+	/*height: 100%;*/
+	float: left;
+	line-height: 36px;
+	margin:0 10px;
+}
+.daohang-right-a1 span{
+	color: #666666;
+	font-size: 12px;
+} 
+.daohang-right-a1 i{
+	position: relative;
+	top: -6px;
+	color: #bbb;
+	display: inline-block;
+	width: 10px;
+	margin-left: 3px;
+	vertical-align: middle;
+	/*line-height: 20px;*/
+	transition: all .2s linear;
+}
+.daohang-right-a3,.daohang-right-a4{
+	color: #666;
+	font-size: 12px;	
+}
+.daohang-right-a4{
+	color: #f60;
+	margin-left: 10px;
+}
+.daohang-right-a2 i,.daohang-right-a2 span{
+	color: #f60;
+}
+.daohang-left-d1 a:hover span{
+	color: #f60;
+}
+.daohang-left-d1 a:hover i{
+	transform: rotate(-180deg);
+	top:7px
+}
+.daohang-right-d1 a:hover{
+	color: #f60;
+}
+.daohang-right-d1 a:hover span{
+	color: #f60;
+}
+.daohang-right-d1 a:hover i{
+	transform: rotate(-180deg);
+	top: 7px;
+}
+.daohang-right-d1 a:hover .che{
+	transform: none;
+	top: -6px;
+}
+.daohang-right-d2-fixed{
+	position: fixed;
+    top: 6px;
+    right: 50%;
+    margin-right: -480px;
+    z-index: 7692;
+}
+.daohang-right-d3-fixed{
+	position: fixed;
+    top: 6px;
+    right: 50%;
+    margin-right: -594px;
+    z-index: 7692;
+}

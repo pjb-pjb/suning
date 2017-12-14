@@ -1,0 +1,30 @@
+@import url("base.css");
+.cuxiao{
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.cuxiao .cuxiao-img1{
+	position: absolute;
+	width: 1920px;
+	height: 200px;
+	top: 0;
+	left: 50%;
+	margin-left: -960px;
+}
+.cuxiao ul{
+	width: 1190px;
+	height: 190px;
+	position: relative;
+	margin: 0 auto;
+}
+.cuxiao ul li{
+	width: 230px;
+	height: 190px;
+	margin: 0 0 0px 10px;
+	float: left;
+}
+.cuxiao ul li:first-child{
+	margin-left: 0;
+}

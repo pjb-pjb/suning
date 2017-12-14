@@ -1,0 +1,104 @@
+@import url("base.css");
+.shouhou{
+	width: 100%;
+	height: 278px;
+	margin-top: 20px;
+	background: #F5F5F5;
+	border-top:1px solid #E7E7E7;
+}
+.shouhou1{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 1190px;
+	height: 278px;
+}
+.shouhou .shouhou-top{
+	overflow: hidden;
+	height: 73px;
+	padding: 12px 0;
+	width: 1250px;
+	padding: 12px 0;
+	border-bottom: 1px solid #eaeaea;
+}
+.shouhou-top li{
+	width: 250px;
+	float: left;
+	overflow: hidden;
+}
+.shouhou-top .tubiao{
+	float: left;
+	width: 48px;
+	height: 48px;
+	margin-right: 8px;
+}
+.shouhou-top .tubiao img{
+	display: block;
+	width: 48px;
+	height: 48px;
+}
+.shouhou-top .text{
+	width: 180px;
+	float: left;
+	height: 48px;
+}
+.shouhou-top .text p{
+	line-height: 24px;
+	width: 100%;
+	height: 24px;
+	color: #333030;
+	font-size: 14px;
+}
+.shouhou-top .text .name a{
+	font-weight: bold;
+	color: #333333;
+}
+.shouhou-top .text .name a:hover{
+	color: #f60;
+}
+.shouhou-bottom{
+	float: left;
+}
+.shouhou-bottom .title{
+	width: 100%;
+    line-height: 40px;
+    font-weight: bold;
+    color: #545454;
+     height: 35px; 
+    font-size: 14px;
+    overflow: hidden;
+}
+.shouhou-bottom li{
+	float: left;
+	width: 210px;
+}
+.shouhou-bottom .nr{
+	width: 100%;
+    line-height: 22px;
+    color: #545454;
+    font-size: 12px;
+    display: block;
+}
+.shouhou-bottom .nr:hover{
+	color: #f60;
+}
+.shouhou-bottom-right{
+	float: left;
+    height: 180px;
+    width: 90px;
+}
+.shouhou-bottom-right .title{
+	width: 100%;
+    line-height: 40px;
+    font-weight: bold;
+    color: #545454;
+     height: 35px; 
+    font-size: 14px;
+    overflow: hidden;
+}
+.shouhou-bottom-right a{
+	color: #333;
+	font-size: 12px;
+}
+.shouhou-bottom-right a:hover{
+	color: #f60;
+}

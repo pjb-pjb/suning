@@ -1,0 +1,293 @@
+@import url("base.css");
+.shengxian{
+	width: 1190px;
+	height: 530px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.shengxian-left{
+	width: 790px;
+	float: left;
+	height: 540px;
+	overflow: hidden;
+}
+.shengxian-left ul{
+	width: 800px;
+	height: 540px;
+}
+.shengxian-left ul li{
+	position: relative;
+    float: left;
+    width: 390px;
+    height: 170px;
+    margin: 0 10px 10px 0;
+    overflow: hidden;
+}
+.shengxian-left ul .item1{
+	background: -webkit-gradient(linear,0 0,right 0,from(#e89621),to(#f5c568));
+}
+.shengxian-left ul .item2{
+	background: -webkit-gradient(linear,0 0,right 0,from(#325bb4),to(#4c9afe));
+}
+.shengxian-left ul li a{
+	display: block;
+    width: 100%;
+    height: 126px;
+    padding-top: 44px;
+}
+.shengxian-left ul li a .line{
+	position: relative;
+    display: block;
+    height: 2px;
+    background: url(../img/index.png);
+    margin-left: 35px;
+    z-index: 1;
+}
+.shengxian-left ul li a .line-top{
+	width: 78px;
+    background-position: -102px -245px;
+}
+.shengxian-left ul li a .line-bottom{
+	width: 154px;
+    background-position: -101px -253px;
+}
+.shengxian-left ul li a p{
+	position: relative;
+    color: #FFF;
+    width: 160px;
+    overflow: hidden;
+    z-index: 1;
+}
+.shengxian-left ul li a .name{
+	margin: 5px 0 5px 35px;
+	height: 26px;
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: bold;
+}
+.shengxian-left ul li a .desc{
+	margin: 5px 0 0 35px;
+	font-size: 14px;
+	line-height: 20px;
+	height: 20px;
+}
+.shengxian-left ul li a img{
+	position: absolute;
+    width: 170px;
+    height: 170px;
+    right: 25px;
+    top: 0;
+    transition: all .5s;
+}
+.shengxian-left ul li:hover img{
+	transform: translateX(-10px);
+}
+.shengxian-sp{
+	float: left;
+    width: 390px;
+    height: 350px;
+    margin-left: 10px;
+}
+.shengxian-sp .title{
+	width: 100%;
+    height: 45px;
+    color: #FFF;
+    background: #3f3435;
+}
+.shengxian-sp .title h5{
+	float: left;
+	padding-left: 15px;
+	font-size: 18px;
+	line-height: 45px;
+	font-weight: bold;
+}
+.shengxian-sp .big{
+	position: relative;
+    width: 390px;
+    height: 227px;
+    overflow: hidden;
+}
+.shengxian-sp .big ul li{
+	position: absolute;
+    width: 390px;
+    height: 227px;
+}
+.shengxian-sp .big ul li img{
+	display: block;
+    width: 390px;
+    height: 227px;
+}
+.shengxian-sp .big ul li .opacity{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: .15;
+    background: #000;
+}
+.shengxian-sp .big ul li span{
+	position: absolute;
+    top: 80px;
+    left: 170px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url(../img/index.png) -190px 0px;
+}
+.shengxian-sp .big ul li .opacity1{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    background: #000;
+    opacity: .5;
+}
+.shengxian-sp .big ul li .name{
+	position: absolute;
+    bottom: 0;
+    left: 35px;
+    width: 320px;
+    height: 45px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #FFF;
+     font-size: 14px;
+    line-height: 45px;
+}
+.shengxian-sp .small{
+	position: relative;
+    width: 390px;
+    height: 73px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.shengxian-sp .small ul{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 10000px;
+    height: 73px;
+}
+.shengxian-sp .small ul li{
+	position: relative;
+    float: left;
+    width: 128px;
+    height: 73px;
+    margin-right: 3px;
+}
+.shengxian-sp .small ul li img{
+	display: block;
+    width: 128px;
+    height: 73px;
+}
+.shengxian-sp .small ul li .opacity{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: .20;
+    background: #000;
+}
+.shengxian-sp .small ul li span{
+	position: absolute;
+    top: 18px;
+    left: 51px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url(../img/index.png) -252px 0;
+}
+.shengxian-sp .small .jiantou{
+	position: absolute;
+    display: none;
+    width: 14px;
+    height: 73px;
+    top: 0;
+    background: url(../img/index.png);
+}
+.shengxian-sp .small:hover .jiantou{
+	display: block;
+}
+.shengxian-sp .small .jiantou-left{
+	background-position: -284px 0;
+}
+.shengxian-sp .small .jiantou-right{
+	right: 0;
+	background-position: -304px 0;;
+}
+.shengxian-sp .small ul li p{
+	position: absolute;
+    width: 112px;
+    height: 20px;
+    left: 8px;
+    color: #FFF;
+    bottom: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 10px;
+    line-height: 20px;
+}
+.shengxian-right{
+	float: left;
+    width: 390px;
+    height: 170px;
+    margin: 10px 0 0 10px;
+    overflow: hidden;
+}
+.shengxian-right ul{
+	width: 400px;
+	height: 170px;
+}
+.shengxian-right ul li{
+	position: relative;
+    float: left;
+    width: 190px;
+    height: 170px;
+    margin: 0 10px 0 0;
+    overflow: hidden;
+}
+.shengxian-right ul .item7{
+	background: -webkit-gradient(linear,0 0,right 0,from(#6ea166),to(#9fc766));
+}
+.shengxian-right ul li a{
+	display: block;
+    width: 100%;
+    height: 152px;
+    padding-top: 18px;
+}
+.shengxian-right ul li a p{
+	color: #FFF;
+    width: 120px;
+    overflow: hidden;
+}
+.shengxian-right ul li a .name{
+	height: 26px;
+    margin: 0 0 5px 35px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: bold;
+}
+.shengxian-right ul li a .desc{
+	height: 20px;
+    width: 126px;
+    margin: 0 0 0 35px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.shengxian-right ul li a img{
+	position: absolute;
+    width: 190px;
+    height: 100px;
+    left: 0;
+    bottom: 0;
+    background: 0;
+    transition: all .5s;
+}
+.shengxian-right ul li:hover a img{
+	transform: translateX(-10px);
+}

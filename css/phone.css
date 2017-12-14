@@ -1,0 +1,291 @@
+@import url("base.css");
+.phone{
+	height: 565px;
+    background: #f2f2f2;
+    width: 1190px;
+    margin: 20px auto 0;
+}
+.phone-left{
+	float: left;
+    width: 590px;
+    height: 565px;
+    background: #FFF;
+    border-top: 2px solid #FFF;
+    border-color: #33ae75;
+}
+.phone .title{
+	width: 100%;
+    height: 45px;
+    background: #f0f7f4;
+}
+.phone .title .title-name{
+	float: left;
+    width: 190px;
+    height: 45px;
+    background: #33ae75;
+}
+.phone .title .title-name p{
+	float: left;
+    color: #FFF;
+}
+.phone .title .title-name .name{
+	margin-left: 15px;
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: bold;
+}
+.phone .title .code{
+	position: relative;
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin: 10px 0 0 10px;
+    background: url(../img/index.png) -232px -209px;
+}
+.phone .title .code:hover .code-1{
+	display: block;
+}
+.phone .title .code .code-1{
+	z-index: 100;
+	display: none;
+    position: absolute;
+    top: 35px;
+    left: -49px;
+    width: 120px;
+    height: 130px;
+    background: #FFF;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+}
+.phone .title .code .code-1 span{
+	position: absolute;
+    width: 10px;
+    height: 8px;
+    top: -7px;
+    left: 56px;
+    background: url(../img/index.png) -267px -210px;
+}
+.phone .title .code .code-1 img{
+	display: block;
+    width: 100px;
+    height: 100px;
+    margin: 6px auto 0;
+}
+.phone .title .code .code-1 p{
+	float: none;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px; 
+    color: #333;
+}
+.phone-nav{
+	float: right;
+    margin: 14px 18px 0 0;
+}
+.phone-nav a{
+	float: right;
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+}
+.phone-nav a:hover{
+	color: #f60;
+}
+.phone .content{
+	width: 100%;
+    height: 360px;
+}
+
+.phone .content .left-img{
+	float: left;
+    position: relative;
+    width: 190px;
+    height: 360px;
+    cursor: pointer;
+}
+.phone .content .left-img img{
+	display: block;
+    width: 190px;
+    height: 360px;
+}
+.phone .content .left-img .cover{
+	position: absolute;
+    width: 190px;
+    height: 90px;
+    left: 0;
+    bottom: 0;
+    opacity: .6;
+    background: #33ae75;
+}
+.phone .content .left-img .img-name{
+	position: absolute;
+    top: 285px;
+    left: 14px;
+    width: 160px;
+    height: 30px;
+    overflow: hidden;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.phone .content .left-img .img-desc{
+	position: absolute;
+    top: 315px;
+    left: 14px;
+    color: #FFF;
+    width: 160px;
+    height: 22px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 22px;
+}
+.phone .content .left-img a{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.phone .content .left-img:hover a{
+	background: #FFFFFF;
+	opacity: 0.1;
+}
+.phone .content .img-list{
+	position: relative;
+    float: left;
+    width: 400px;
+    height: 360px;
+    overflow: hidden;
+}
+.phone .content .img-list li{
+	position: relative;
+    float: left;
+    width: 199px;
+    height: 179px;
+    border-width: 0 0 1px 1px;
+    border-color: #EEE;
+    border-style: solid;
+    overflow: hidden;
+}
+.phone .content .img-list li a{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.phone .content .img-list li a .img-name{
+	width: 180px;
+    height: 24px;
+    overflow: hidden;
+    text-align: center;
+    margin: 14px auto 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+.phone .content .img-list li a .img-desc{
+	width: 180px;
+    height: 20px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 20px;
+    color: #33ae75;
+}
+.phone .content .img-list li a img{
+	display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    transition: transform .5s;
+}
+.phone .content .img-list li:hover img{
+	transform: scale(1.05);
+}
+.phone .bottom{
+	position: relative;
+    width: 100%;
+    height: 109px;
+    overflow: hidden;
+    border-bottom: 1px solid #EEE;
+}
+.phone .bottom ul{
+	width: 593px;
+}
+.phone .bottom ul li{
+	position: relative;
+    float: left;
+    width: 200px;
+    height: 109px;
+    border-right: 1px solid #EEE;
+}
+.phone .bottom ul .first{
+	width: 189px;
+}
+.phone .bottom ul li a{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.phone .bottom ul li a .img-name{
+	width: 70px;
+    color: #333;
+    height: 24px;
+    margin-top: 27px;
+    padding-left: 20px;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 24px;
+}
+.phone .bottom ul li a .img-desc{
+	color: #33ae75;
+	width: 72px;
+    height: 22px;
+    padding-left: 20px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 22px;
+}
+.phone .bottom ul li a img{
+	position: absolute;
+    top: 15px;
+    right: 15px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    transition: all .5s;
+}
+.phone .bottom ul li:hover img{
+	transform: scale(1.05);
+}
+.phone .phone-logo{
+	width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+.phone .phone-logo li{
+	margin: 9px 9px 0 9px;
+	float: left;
+    width: 80px;
+    height: 30px;   
+}
+.phone .phone-logo li img{
+	display: block;
+    width: 80px;
+    height: 30px;
+}
+.phone .phone-right{
+	float: left;
+	margin-left: 10px;
+    width: 590px;
+    height: 565px;
+    background: #FFF;
+    border-top: 2px solid #FFF;
+    border-color: #2eaba3;
+}

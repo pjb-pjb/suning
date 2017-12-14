@@ -1,0 +1,176 @@
+@import url("base.css");
+.djh{
+	width: 1190px;
+	height: 305px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.djh1{
+	width: 100%;
+	height: 43px;
+	border-bottom: 2px solid #dd2726;
+}
+.djh1 .djh-name{
+	float: left;
+    width: 175px;
+    padding: 0 0 0 15px;
+    height: 43px;
+    background: #dd2726;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 38px;
+    font-weight: bold;
+}
+.djh1 .djh-name span{
+	display: inline-block;
+    vertical-align: middle;
+}
+.djh1 .slogin{
+	width: 93px;
+    height: 13px;
+    margin: 4px 0 0 5px;
+    background: url(../img/index.png) 0 -124px;
+}
+.djh1 .more{
+	position: relative;
+    float: right;
+    padding: 0 5px;
+    height: 24px;
+    margin: 12px 10px 0 0;
+    color: #FFF;
+    background: #db2726;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    line-height: 24px;
+}
+.djh1 .more span,i{
+	display: inline-block;
+}
+.djh1 .more i{
+	width: 6px;
+    height: 9px;
+    margin-left: 8px;
+    background: url(../img/index.png) -73px -37px;
+}
+.djh1 .more em{
+	position: absolute;
+    top: 0;
+    width: 10px;
+    height: 24px;
+    background: url(../img/index.png);
+}
+.djh1 .more .left{
+	left: -10px;
+    background-position: -134px -100px;
+}
+.djh1 .more .right{
+	right: -10px;
+    background-position: -170px -100px;
+}
+.djh2{
+	width: 100%;
+    height: 260px;
+    background: #FFF;
+}
+.djh2 .djh-img1{
+	margin-top: 20px;
+	width: 999px;
+	float: left;
+	padding-top: 20px;
+	position: relative;
+    height: 240px;
+    overflow: hidden;
+	/*background: red;*/
+}
+.djh2 .djh-img1 ul{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 4000px;
+    height: 240px;
+}
+.djh2 .djh-img1 ul li{
+	position: relative;
+    float: left;
+    width: 200px;
+    height: 240px;
+}
+.djh2 .djh-img1 ul li img{
+	display: block;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    transition: all .5s;
+}
+.djh2 .djh-img1 .name{
+	width: 160px;
+    height: 36px;
+    margin: 10px auto 3px;
+    color: #474747;
+    font-size: 12px;
+    line-height: 18px;
+    overflow: hidden;
+   	/*允许在单词内换行*/
+    word-break: break-all;
+}
+.djh2 .djh-img1 .price{
+	width: 160px;
+    margin: 0 auto;
+}
+.djh2 .djh-img1 .price .after{
+	color: #F60;
+}
+.djh2 .djh-img1 .price .before{
+	text-decoration: line-through;
+	color: #999;
+    margin-left: 5px;
+}
+.djh2 .djh-img1 .price span{
+	float: left;
+    font-size: 12px;
+    line-height: 18px;
+}
+.djh2 .djh-img1 .after em{
+	font-size: 16px;
+    font-weight: bold;
+}
+.djh2 .djh-img1 ul .line{
+	position: absolute;
+    right: 0;
+    top: 0;
+    height: 140px;
+    width: 0;
+    border-right: 1px solid #eee;
+}
+.djh2 .djh-img2 img{
+	float: right;
+    width: 180px;
+    height: 240px;
+    margin: 10px 10px 0 0;
+}
+.djh2  .btn{
+	display: none;
+	position: absolute;
+    width: 30px;
+    height: 64px;
+    top: 60px;
+    background: url(../img/index.png);
+}
+.djh2  .btn-left{
+	left: 0;
+    background-position: 0 -20px;
+}
+.djh2  .btn-right{
+	right: 10px;
+    background-position: -37px -20px;
+}
+.djh-img1 li:hover img{
+	transform: scale(1.05);
+}
+.djh-img1 li:hover .name{
+	color: #f60;
+}
+.djh-img1:hover .btn{
+	display: block;
+}

@@ -1,0 +1,210 @@
+@import url("base.css");
+.dq{
+	background: #FFF;
+    border-top: 2px solid #FFF;
+    height: 455px;
+    width: 1190px;
+    border-color: #5f6cb7;
+    margin: 20px auto 0;
+}
+.dq .title{
+	width: 100%;
+    height: 45px;
+    background: #eff0f8;
+}
+.dq .title .title-name{
+	float: left;
+    width: 190px;
+    height: 45px;
+    background: #5f6cb7;
+}
+.dq .title .title-name p{
+	float: left;
+    color: #FFF;
+    margin-left: 15px;
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: bold;
+}
+.dq .title .title-name  .code{
+	position: relative;
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin: 10px 0 0 10px;
+    background: url(../img/index.png) -232px -209px;
+}
+.dq .title .title-nav{
+	float: right;
+    margin: 14px 18px 0 0;
+}
+.dq .title .title-nav a{
+	float: right;
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+}
+.dq .title .title-nav a:hover{
+	color: #f60;
+}
+.dq .content{
+	width: 100%;
+    height: 360px;
+}
+.dq .content .left-img{
+	float: left;
+    position: relative;
+    width: 190px;
+    height: 360px;
+}
+.dq .content .left-img img{
+	display: block;
+    width: 190px;
+    height: 360px;
+}
+.dq .content .left-img .cover{
+	position: absolute;
+    width: 190px;
+    height: 90px;
+    left: 0;
+    bottom: 0;
+    opacity: .6;
+    background: #5f6cb7;
+}
+.dq .content .left-img .img-name{
+	position: absolute;
+    top: 285px;
+    left: 14px;
+    width: 160px;
+    height: 30px;
+    overflow: hidden;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.dq .content .left-img .img-desc{
+	position: absolute;
+    top: 315px;
+    left: 14px;
+    color: #FFF;
+    width: 160px;
+    height: 22px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 22px;
+}
+.dq .content .left-img a{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.dq .content .left-img:hover a{
+	background: #ffffff;
+	opacity: 0.1;
+}
+.dq .content .img-list{
+	position: relative;
+    float: left;
+    width: 400px;
+    height: 360px;
+    overflow: hidden;
+}
+.dq  .content .img-list li{
+	position: relative;
+    float: left;
+    width: 199px;
+    height: 179px;
+    border-width: 0 0 1px 1px;
+    border-color: #EEE;
+    border-style: solid;
+    overflow: hidden;
+}
+.dq  .content .img-list li a{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.dq  .content .img-list li a .img-name{
+	width: 180px;
+    height: 24px;
+    overflow: hidden;
+    text-align: center;
+    margin: 14px auto 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+.dq  .content .img-list li a .img-desc{
+	width: 180px;
+    height: 20px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 20px;
+    color: #33ae75;
+}
+.dq  .content .img-list li a img{
+	display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    transition: transform .5s;
+}
+.dq  .content .img-list li:hover img{
+	transform: scale(1.05);
+}
+.dq .content .middle-img{
+	position: relative;
+    float: left;
+    width: 200px;
+    height: 360px;   
+}
+.dq .content .middle-img p{
+	position: absolute;
+    left: 21px;
+    color: #5f6cb7;
+}
+.dq .content .middle-img .img-name{
+	top: 15px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: bold;
+}
+.dq .content .middle-img .img-desc{
+	top: 41px;
+    font: 12px/18px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    font-size: 12px;
+    line-height: 18px;
+}
+.dq .content .middle-img img{
+	display: block;
+    width: 200px;
+    height: 360px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+ 
+.dqlogo {
+	width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+.dqlogo  li{
+	margin: 9px 9px 0 9px;
+	float: left;
+    width: 80px;
+    height: 30px;   
+}
+.dqlogo  li img{
+	display: block;
+    width: 80px;
+    height: 30px;
+}

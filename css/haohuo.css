@@ -1,0 +1,350 @@
+.haohuo{
+	height: 427px;
+	width: 1190px;
+	margin: 20px auto;
+}
+.haohuo1{
+	width: 390px;
+	height: 427px;
+	margin: 0;
+	float: left;
+	background: #FFFFFF;
+}
+
+.haohuo2{
+	float: left;
+    width: 390px;
+    height: 427px;
+    margin-left: 10px;
+    background: #FFF;
+}
+
+.haohuo3{
+	float: left;
+    width: 390px;
+    height: 427px;
+    margin-left: 10px;
+    background: #FFF;
+}
+.haohuo1 .title{
+	position: relative;
+    width: 100%;
+    height: 45px;
+    color: #FFF;
+}
+.haohuo2 .title{
+	position: relative;
+    width: 100%;
+    height: 45px;
+    color: #FFF;
+}
+.haohuo3 .title{
+	position: relative;
+    width: 100%;
+    height: 45px;
+    color: #FFF;
+}
+.haohuo .title h5{
+	float: left;
+    padding-left: 15px;
+    font-size: 18px;
+    line-height: 45px;
+    font-weight: bold;
+}
+.haohuo .title a{
+	float: right;
+    margin: 15px 10px 0 0;
+    color: #FFF;
+    font-size: 12px;
+    line-height: 16px;
+}
+.haohuo .title a span{
+	display: inline-block;
+    vertical-align: middle;
+}
+.haohuo .title a i{
+	display: inline-block;
+    vertical-align: middle;
+    width: 6px;
+    height: 9px;
+    margin-left: 8px;
+    background: url(../img/index.png) -73px -37px;
+}
+.haohuo .haohuo1 .title{
+	background: #3b8c94;
+}
+.haohuo .haohuo2 .title{
+	background: #e66a07;
+}
+.haohuo .haohuo2 .title .new-logio{
+	position: absolute;
+    left: 87px;
+    bottom: 8px;
+    width: 53px;
+    height: 53px;
+    background: url(../img/haohuo/haohuo7.png);
+}
+.haohuo .haohuo3 .title{
+	background: #b62323;
+}
+.haohuo1 .content{
+	width: 369px;
+	height: 362px;
+	margin: 10px auto 0;
+	overflow: hidden;
+	position: relative;
+}
+.haohuo1 .content ul{
+	width: 370px;
+    height: 363px;
+} 
+.haohuo1 .content ul li{
+	position: relative;
+    float: left;
+    width: 184px;
+    height: 120px;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #e7e7e7;
+}
+.haohuo1 .content ul li a{
+	float: left;
+    width: 184px;
+    height: 120px;
+    cursor: pointer;
+}
+.haohuo1 .content ul .name{
+	width: 72px;
+    height: 40px;
+    overflow: hidden;
+    margin: 14px 0 0 15px;
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+}
+.haohuo1 .content ul .desc{
+	width: 72px;
+    height: 16px;
+    overflow: hidden;
+    color: #999;
+    margin: 10px 0 0 15px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.haohuo1 .content ul .desc i{
+	color: #3B8C94;
+}
+.haohuo1 .content ul li img{
+	position: absolute;
+    display: block;
+    width: 90px;
+    height: 90px;
+    bottom: 3px;
+    right: 3px;
+}
+.haohuo2 .content {
+	width: 369px;
+    height: 361px;
+    margin: 10px auto 0;
+    overflow: hidden;
+    position: relative;
+}
+.haohuo2 .content ul{
+	width: 370px;
+    height: 363px;
+}
+.haohuo2 .content ul li{
+	position: relative;
+    float: left;
+    width: 184px;
+    height: 180px;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #e7e7e7;
+}
+.haohuo2 .content ul li a{
+	float: left;
+    width: 184px;
+    height: 180px;
+}
+.haohuo2 .content ul li .name{
+	float: left;
+    padding: 0 8px;
+    height: 20px;
+    overflow: hidden;
+    margin: 14px 0 0 8px;
+    background: #e66a07;
+    border-radius: 20px;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 20px;
+}
+.haohuo2 .content ul li .desc{
+	float: left;
+    width: 144px;
+    height: 16px;
+    overflow: hidden;
+    color: #999;
+    margin: 6px 0 0 16px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.haohuo2 .content ul li .img1{
+	margin-left: 2px;
+}
+.haohuo2 .content ul li img{
+	float: left;
+    width: 90px;
+    height: 90px;
+    margin-top: 14px;
+}
+.haohuo3 .content{
+	position: relative;
+    width: 369px;
+    padding: 0 10px 0 11px;
+}
+.haohuo3 .content .list{
+	position: relative;
+    width: 369px;
+    height: 360px;
+    overflow: hidden;
+    margin: 10px 0 0 0;
+}
+.haohuo3 .content .list .list1{
+	position: absolute;
+    left: 0;
+    top: 0;
+    height: 360px;
+    width: 1200px;
+}
+.haohuo3 .content .list2{
+	float: left;
+    width: 369px;
+    height: 360px;
+}
+.haohuo3 .content .list3{
+	position: relative;
+    float: left;
+    width: 369px;
+    height: 180px;
+}
+.haohuo3 .content .list3 .title{
+	position: absolute;
+	text-align: center;
+	width: 56px;
+    left: 0;
+    top: 14px;
+    color: #FFF;
+    background: #c72c2c;
+    border-radius: 12px;
+    padding: 0 5px;
+    height: 22px;
+    font-size: 14px;
+    line-height: 22px;
+}
+.haohuo3 .content .list3 ul{
+	position: relative;
+    width: 369px;
+    height: 166px;
+    padding-top: 14px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.haohuo3 .content .list3 ul li{
+	position: relative;
+    float: left;
+    width: 123px;
+    height: 166px;
+}
+.haohuo3 .content .list3 ul li a{
+	float: left;
+    width: 100%;
+    height: 100%;
+}
+.haohuo3 .content .list3 ul li a img{
+	display: block;
+    width: 80px;
+    height: 80px;
+    margin: 28px auto 0;
+}
+.haohuo3 .content .list3 ul li .name{
+	width: 100px;
+    height: 28px;
+    overflow: hidden;
+    color: #333;
+    margin-left: 11px;
+    font-size: 12px;
+    line-height: 14px;
+}
+.haohuo3 .content .list3 ul li .price{
+	margin: 1px 0 0 11px;
+    color: #b62323;
+    font-size: 14px;
+    line-height: 22px;
+}
+.haohuo3 .content .list3 ul li .price i,em{
+	font-size: 12px;
+}
+.haohuo3 .content .list3 ul li a span{
+	position: absolute;
+    width: 23px;
+    height: 23px;
+    top: 28px;
+    right: 22px;
+    background: url(../img/index.png);
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    line-height: 23px;
+}
+.haohuo3 .content .list3 ul li a .paihang1{
+	background-position: -3px -241px;
+}
+.haohuo3 .btn{
+	position: absolute;
+    width: 30px;
+    height: 64px;
+    top: 146px;
+    background: url(../img/index.png);
+}
+.haohuo3 .btn-left{
+	left: 0;
+    background-position: -82px -145px;
+}
+.haohuo3 .btn-right{
+	right: 0;
+    background-position: -120px -145px;
+}
+.haohuo3 .yuan{
+	position: absolute;
+    bottom: -7px;
+    left: 0;
+    width: 369px;
+    height: 8px;
+    text-align: center;
+    font-size: 0;
+}
+.haohuo3 .yuan a{
+	position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    background: #d8d8d8;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+}
+.haohuo3 .yuan a:first-child{
+	background: #c72c2c;
+}
+.haohuo3 .btn{
+	display: none;
+}
+.haohuo3 .content:hover .btn{
+	display: block;
+}
+.haohuo3 .content .btn-left:hover{
+	background-position: -161px -145px;
+}
+.haohuo3 .content .btn-right:hover{
+	background-position: -198px -145px;
+	
+}
