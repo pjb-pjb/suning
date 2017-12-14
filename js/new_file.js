@@ -110,7 +110,7 @@ $(function(){
 		$(".banner .banner2-d1 ul li").eq(n).fadeIn(1000).siblings().fadeOut(1000);
 		$(".banner2-d2 .banner-yuan i").eq(n).addClass("on").siblings().removeClass("on");
 		if(n>7){
-			n=0;
+			n=-1;
 		}
 	},2000);
 	var x=0;
@@ -122,7 +122,7 @@ $(function(){
 			$(".banner .banner2-d1 ul li").eq(n).fadeIn(1000).siblings().fadeOut(1000);
 			$(".banner2-d2 .banner-yuan i").eq(n).addClass("on").siblings().removeClass("on");
 			if(n>7){
-				n=0;
+				n=-1;
 			}
 		},2000);
 	});
@@ -156,7 +156,7 @@ $(function(){
 			$(".banner .banner2-d1 ul li").eq(n).fadeIn(1000).siblings().fadeOut(1000);
 			$(".banner2-d2 .banner-yuan i").eq(n).addClass("on").siblings().removeClass("on");
 			if(n>7){
-				n=0;
+				n=-1;
 			}
 		},2000);
 	});
