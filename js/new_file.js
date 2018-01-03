@@ -61,7 +61,7 @@ $(window).scroll(function(){
 	if($(window).scrollTop()>(y5-w)){
 		$(".aside-left li").eq(4).addClass("color").siblings().removeClass("color");
 	}
-	if($(window).scrollTop()>(y6-w)){
+	if($(window).scrollTop()>(y5)){
 		$(".aside-left li").eq(5).addClass("color").siblings().removeClass("color");
 	}
 	if($(window).scrollTop()>(y7-w)){
@@ -73,7 +73,7 @@ $(window).scroll(function(){
 	if($(window).scrollTop()>(y9-w)){
 		$(".aside-left li").eq(8).addClass("color").siblings().removeClass("color");
 	}
-	if($(window).scrollTop()>(y10-w)){
+	if($(window).scrollTop()>(y9)){
 		$(".aside-left li").eq(9).addClass("color").siblings().removeClass("color");
 	}	
 	if($(window).scrollTop()<=(y1-$("#phone").outerHeight())){
@@ -122,7 +122,11 @@ $(function(){
 	$('#l6').click(function(){flag=1;$('html,body').animate({scrollTop: y6+'px'}, 100,function(){flag=0});});
 	$('#l7').click(function(){flag=1;$('html,body').animate({scrollTop: y7+'px'}, 100,function(){flag=0});});
 	$('#l8').click(function(){flag=1;$('html,body').animate({scrollTop: y8+'px'}, 100,function(){flag=0});});
-	$('#l9').click(function(){flag=1;$('html,body').animate({scrollTop: y9+'px'}, 100,function(){flag=0});});
+	$('#l9').click(function(){
+		$(".aside-left li").eq(8).addClass("color").siblings().removeClass("color");
+		flag=1;
+		$('html,body').animate({scrollTop: y9+'px'}, 100,function(){flag=0});
+	});
 	$('#l10').click(function(){flag=1;$('html,body').animate({scrollTop: y10+'px'}, 100,function(){flag=0});});
 	$(".banner2-d2 .banner-yuan i").first().addClass("on");
 	$(".banner .banner2-d1 ul li").eq(0).css("display","block");
