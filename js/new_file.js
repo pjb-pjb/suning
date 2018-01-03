@@ -30,7 +30,10 @@ $(window).on("scroll",function(){
 				$(".sousuo3-d").removeClass("sousuo3-d-fixed");
 			}
 });
+let flag=0;
 $(window).scroll(function(){
+	console.log(flag);
+	if(flag==0){
 	var y1=$("#phone").offset().top;
 	var y2=$("#dq").offset().top;
 	var y3=$("#zn").offset().top;
@@ -79,6 +82,7 @@ $(window).scroll(function(){
 	if($(window).scrollTop()>(y10+$("#like").outerHeight()*0.4)){
 		$(".aside-left").css("display","none");
 	}
+	}
 });
 $(function(){
 	var y1=$("#phone").offset().top-80;
@@ -91,17 +95,35 @@ $(function(){
 	var y8=$("#jr").offset().top-80;
 	var y9=$("#bq").offset().top-80;
 	var y10=$("#like").offset().top-80;
-	$('#l').click(function(){$('html,body').animate({scrollTop: "100px"}, 100);});
-	$('#l1').click(function(){$('html,body').animate({scrollTop: y1+'px'}, 100);});
-	$('#l2').click(function(){$('html,body').animate({scrollTop: y2+'px'}, 100);});
-	$('#l3').click(function(){$('html,body').animate({scrollTop: y3+'px'}, 100);});
-	$('#l4').click(function(){$('html,body').animate({scrollTop: y4+'px'}, 100);});
-	$('#l5').click(function(){$('html,body').animate({scrollTop: y5+'px'}, 100);});
-	$('#l6').click(function(){$('html,body').animate({scrollTop: y6+'px'}, 100);});
-	$('#l7').click(function(){$('html,body').animate({scrollTop: y7+'px'}, 100);});
-	$('#l8').click(function(){$('html,body').animate({scrollTop: y8+'px'}, 100);});
-	$('#l9').click(function(){$('html,body').animate({scrollTop: y9+'px'}, 100);});
-	$('#l10').click(function(){$('html,body').animate({scrollTop: y10+'px'}, 100);});
+	$('#l').click(
+		function(){
+			$('html,body').animate({scrollTop: "100px"}, 100,function(){});
+		});
+	$('#l1').click(function(){
+		flag=1;
+		$('html,body').animate({scrollTop: y1+'px'}, 100,function(){
+			flag=0;
+		});
+	});
+	$('#l2').click(function(){
+		flag=1;
+		$('html,body').animate({scrollTop: y2+'px'},100,function(){
+			flag=0
+		});
+	});
+	$('#l3').click(function(){
+		flag=1;
+		$('html,body').animate({scrollTop: y3+'px'}, 100,function(){
+			flag=0
+		});
+	});
+	$('#l4').click(function(){flag=1;$('html,body').animate({scrollTop: y4+'px'}, 100,function(){flag=0});});
+	$('#l5').click(function(){flag=1;$('html,body').animate({scrollTop: y5+'px'}, 100,function(){flag=0});});
+	$('#l6').click(function(){flag=1;$('html,body').animate({scrollTop: y6+'px'}, 100,function(){flag=0});});
+	$('#l7').click(function(){flag=1;$('html,body').animate({scrollTop: y7+'px'}, 100,function(){flag=0});});
+	$('#l8').click(function(){flag=1;$('html,body').animate({scrollTop: y8+'px'}, 100,function(){flag=0});});
+	$('#l9').click(function(){flag=1;$('html,body').animate({scrollTop: y9+'px'}, 100,function(){flag=0});});
+	$('#l10').click(function(){flag=1;$('html,body').animate({scrollTop: y10+'px'}, 100,function(){flag=0});});
 	$(".banner2-d2 .banner-yuan i").first().addClass("on");
 	$(".banner .banner2-d1 ul li").eq(0).css("display","block");
 	var n=0;
