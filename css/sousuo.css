@@ -127,3 +127,101 @@
 .sousuo .sousuo3-d2 a:hover{
 	color: #f60;
 }
+.rec_results{
+	display: none;
+	width: 538px;
+	height: 271px;
+	position: absolute;
+	left: 0;
+	top: 41px;
+	background: #fff;
+	z-index: 7000;
+	overflow: hidden;
+}
+.history{
+	width: 250px;
+	float: left;
+	height: 269px;
+	border: 1px solid #EFEFEF;
+}
+.history li{
+	color: #666;
+	line-height: 24px;
+	cursor: default;
+	text-align: left;
+	overflow: hidden;
+	font-size: 12px;
+}
+.rec_results .title{
+	color: #999;
+	line-height: 28px;
+}
+.history .gray{
+	padding: 0 0 0 12px;
+	background: #eee;
+}
+.search-express-none{
+	display: block;
+	width: 160px;
+	height: 136px;
+	margin: 40px auto;
+	background: url(../img/sousuo/search-express-none.png);
+}
+.rec-results{
+	border: 1px solid #EFEFEF;
+	float: right;
+	position: relative;
+	margin-left: -1px;
+	overflow: hidden;
+	height: 269px;
+	width: 285px;
+}
+.rec-results .title{
+	position: relative;
+	float: none;
+    position: relative;
+    padding: 0 0 0 15px;
+    margin: 0 0 7px 0;
+    border: none;
+    color: #999;
+    line-height: 28px;
+    font-size: 12px;
+}
+.rec-results li{
+	float: left;
+    position: relative;
+    height: 26px;
+    margin: 0 0 15px 15px;
+    overflow: hidden;
+    cursor: default;
+    line-height: 24px;
+    text-align: left;
+    color: #666;
+    font-size: 12px;
+}
+.rec-results li a{
+	display: block;
+    padding: 0 5px;
+    border: 1px solid #E1E1E1;
+    color: #666;
+    white-space: nowrap;
+}
+.rec-results li a:hover{
+	background: #FF6600;
+	color: #fff;
+}
+.rec_results .close{
+	display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.rec_results .close:hover{
+	color: #FF6600;
+}

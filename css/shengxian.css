@@ -165,6 +165,7 @@
     overflow: hidden;
 }
 .shengxian-sp .small ul{
+	transition: all 0.5s; 
 	position: absolute;
     left: 0;
     top: 0;
